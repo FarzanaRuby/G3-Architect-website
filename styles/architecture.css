@@ -2,10 +2,59 @@ body{
     
     font-family: 'Work Sans', sans-serif;
 }
-.container{
+header{
     background-color: #faebd7;
-    border: 1px solid blueviolet;
-    width: 1920px;
-    height: 1322px;
+}
+
+
+.container{
+   
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 240px;
+}
+
+.about-nav a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.nav-title{
+    font-weight:  700;
+    font-size: 2.8rem;
+}
+.banner-content{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+   
+}
+.brand{
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+
+}
+.banner-discription{
+    color:  #727272;
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+
+}
+.btn-primary{
+    color: #FFF;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 5px;
+  background: #FF900E;
+  border: white;
+  margin-bottom: 50px;
+
+
 
 }
