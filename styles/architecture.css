@@ -1,0 +1,11 @@
+body{
+    
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    background-color: #faebd7;
+    border: 1px solid blueviolet;
+    width: 1920px;
+    height: 1322px;
+
+}
